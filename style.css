@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+nav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white;
+    border-radius: 0 5px 5px 0; 
+}
+
+nav a:hover {
+    left: 0; 
+}
+
+.menu {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+.shares {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+.about_us {
+    top: 140px;
+    background-color: #f44336;
+}
+
+.contacts {
+    top: 200px;
+    background-color: #555
+}
+
